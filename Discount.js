@@ -6,7 +6,7 @@ function calculate_Discount(customer_Type, purchase_Amount, isSpecial_Occasion) 
             discount = 5;
         }
     } else if (customerType === "VIP") {
-        if (purchaseAmount > 500) {
+        if (purchase_Amount > 500) {
             discount = 20;
         } else if (purchase_Amount > 100) {
             discount = 10;
